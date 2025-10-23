@@ -1,0 +1,6 @@
+framework module WewinPrintLib {
+  umbrella header "WewinPrintLib.h"
+  export *
+
+  module * { export * }
+}

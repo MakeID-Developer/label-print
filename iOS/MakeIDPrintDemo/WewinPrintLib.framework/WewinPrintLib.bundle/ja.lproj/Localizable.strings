@@ -1,0 +1,111 @@
+//连接
+"WWBluetoothOnKey"                  = "ブルートゥースオープン";
+"WWBluetoothOffKey"                 = "ブルートゥースオフ";
+"WWBluetoothUnsupportedKey"         = "ブルートゥースはサポートされていません";
+"WWBluetoothUnauthorizedKey"        = "ブルートゥースの権限が取得されていません";
+"WWBluetoothResetting"              = "ブルートゥースリセット";
+"WWSearchDeviceFailKey"             = "デバイスの検索に失敗しました";
+"WWSearchDeviceSuccessKey"          = "デバイスの成功を検索";
+"WWConnectFailKey"                  = "接続デバイスに障害が発生しました";
+"WWConnectSuccessKey"               = "正常なデバイス接続";
+"WWConnectingKey"                   = "接続中";
+"WWDeviceOccupyKey"                 = "デバイスが占有されています";
+"WWDisposeSuccessKey"               = "正常に切断されました";
+"WWSendDataFailKey"                 = "データを送信できませんでした";
+"WWCommunicationErrorKey"           = "通信エラー";
+"WWLocationPermissionReictedKey"    = "ターゲティング許可が取得されていません";
+"WWNetReictedKey"                   = "ネットワーク制限";
+"WWNotConnectKey"                   = "接続されていません";
+"WWDisconnectKey"                   = "接続されていません";
+"WWUpdateSuccessKey"                = "アップグレード成功";
+"WWUpdateFailKey"                   = "アップグレードに失敗しました";
+"WWReconnectFailKey"                = "再接続できませんでした";
+"WWWrongFirmwareKey"                = "ファームウェアモデルが一致しません";
+
+//-------固件升级
+"WWUpdateInterruptKey"        = "アップグレードの中断";
+"WWDataErrorKey"              = "データエラー";
+"WWSwitchIAPFailKey"          = "IAPモードの切り替えに失敗しました";
+"WWSwitchIAPSuccessKey"       = "IAPモードを正常に切り替える";
+"WWCheckBootloaderFailKey"    = "boot loaderバージョンのクエリに失敗しました";
+"WWCheckBootloaderSuccessKey" = "検索bootloaderバージョンが成功しました";
+"WWSendUpdateSuccessKey"      = "アップグレード要求の送信に成功しました";
+"WWSendUpdateFailKey"         = "アップグレードリクエストの送信に失敗しました";
+"WWSendDataSuccessKey"        = "データ送信完了";
+"WWSendDataFailKey"           = "データを送信できませんでした";
+"WWWriteFlashSuccessKey"      = "書き込みFlash成功";
+"WWWriteFlashFailKey"         = "Flash書き込みに失敗しました";
+"WWEnterUserModeSuccessKey"   = "ユーザーモードに正常に入力しました";
+"WWEnterUserModeFailKey"      = "ユーザーモードを開始できませんでした";
+"WWUpdatingKey"               = "アップグレード中";
+"WWUpdateCancelKey"           = "アップグレードをキャンセル";
+"WWUpdateTimeOutKey"          = "アップグレードタイムアウト";
+"WWUnsuportKey"               = "サポートしない";
+
+//打印
+"WWPrintingKey"            = "印刷中";
+"WWPrintTimeOutKey"        = "印刷タイムアウト";
+"WWRFIDDataErrorKey"       = "RFIDデータ異常";
+"WWPrintInterruptKey"      = "印刷の中断";
+"WWPrintFailKey"           = "印刷に失敗しました";
+"WWPrintCancelKey"         = "印刷キャンセル";
+"WWPrintSuccessKey"        = "印刷完了";
+"WWSettingSuccessKey"      = "設定成功";
+"WWPrintPauseKey"          = "印刷一時停止";
+"WWPrintDataErrorKey"      = "データに問題がありま";
+"WWCheckFailKey"           = "クエリに失敗しました";
+"WWPrintCountErrorKey"     = "印刷数エラー";
+"WWPrintCountSizeErrorKey" = "幅の高さが間違っている";
+"WWSyncTimeNullKey"        = "時間は空です";
+
+
+"WWPrinterStatus00Key" = "すべて正常です";
+"WWPrinterStatus01Key" = "ラベルボックスに入れてください";
+"WWPrinterStatus02Key" = "EPROMエラー、工場に返却して修理してください";
+"WWPrinterStatus03Key" = "ラベルがなくなりました";
+"WWPrinterStatus04Key" = "認識できないラベル";
+"WWPrinterStatus05Key" = "ロックを解除してラベルボックスに入れる";
+"WWPrinterStatus06Key" = "ロックレバーを閉じてください";
+"WWPrinterStatus07Key" = "偽造防止回路の故障";
+"WWPrinterStatus08Key" = "高温警報";
+"WWPrinterStatus09Key" = "切刀噛み込み";
+"WWPrinterStatus0aKey" = "炭素帯異常";
+"WWPrinterStatus0bKey" = "設備が忙しい";
+"WWPrinterStatus0cKey" = "アダプターエラー";
+"WWPrinterStatus0dKey" = "紙を引っ掛ける";
+"WWPrinterStatus0eKey" = "デバイスはシャットダウンしました";
+"WWPrinterStatus0fKey" = "ラベル異常";
+"WWPrinterStatus10Key" = "RFID異常";
+"WWPrinterStatus11Key" = "";
+"WWPrinterStatus12Key" = "リボン カートリッジのロックを解除して挿入してください";
+"WWPrinterStatus13Key" = "リボンが使い果たされました";
+"WWPrinterStatus14Key" = "認識されないリボン";
+"WWPrinterStatus15Key" = "プリントヘッド異常";
+"WWPrinterStatus16Key" = "サーマル モードでリボンをインストールできません";
+"WWPrinterStatusffKey" = "不明な状態";
+
+//老机型异常
+"WWPrinterErrorNormalKey"                = "正常";
+"WWPrinterErrorUnknownKey"               = "未知のエラー";
+"WWPrinterErrorNoLabelKey"               = "ラベルを入れてください";
+"WWPrinterError24C02Key"                 = "24 C 02で問題が検出されました";
+"WWPrinterErrorLabelUsedUpKey"           = "ラベルがなくなりました";
+"WWPrinterErrorUnrecognizedLabelKey"     = "ラベルを認識できませんでした";
+"WWPrinterErrorLockLeverOpendKey"        = "ロックレバーまたはカバーを閉じてください";
+"WWPrinterErrorLineKey"                  = "回線の故障";
+"WWPrinterErrorWrongAdapterKey"          = "アダプターエラー";
+"WWPrinterErrorNoRibbonKey"              = "炭素バンドを取り付けてください";
+"WWPrinterErrorRibbonUsedUpKey"          = "炭素帯が無くなる";
+"WWPrinterErrorUnrecognizedRibbonKey"    = "炭素帯の識別ができません";
+"WWPrinterErrorCutterAbnormalKey"        = "カッター異常";
+"WWPrinterErrorBackClosedKey"            = "リアカバーが閉じられています";
+"WWPrinterErrorPauseKey"                 = "プリンタの一時停止";
+"WWPrinterErrorSecurityUnrecognizedKey"  = "偽造防止が適切に行われていない";
+"WWPrinterErrorCoverOpenedKey"           = "カバーを閉めてください";
+"WWPrinterErrorNotEnoughStorageKey"      = "メモリ不足";
+"WWPrinterErrorMotorOverheatingKey"      = "モータ過熱";
+"WWPrinterErrorPaperTooThickKey"         = "紙が厚すぎる";
+"WWPrinterErrorPrinterHeadOverheatedKey" = "ヘッド過熱";
+
+//局域网连接
+"WWFailedToGetIPAddressKey"              = "IPの取得に失敗しました";

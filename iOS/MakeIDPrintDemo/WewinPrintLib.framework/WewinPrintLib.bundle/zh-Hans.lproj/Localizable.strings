@@ -1,0 +1,118 @@
+/* 
+  Localizable.ings
+  TextView
+
+  Created by 刘良平 on 2019/11/14.
+  Copyright © 2019 WEWIN. All rights reserved.
+*/
+//连接
+"WWBluetoothOnKey"                  = "蓝牙开启";
+"WWBluetoothOffKey"                 = "蓝牙关闭";
+"WWBluetoothUnsupportedKey"         = "蓝牙不支持";
+"WWBluetoothUnauthorizedKey"        = "未获取到蓝牙权限";
+"WWBluetoothResetting"              = "蓝牙重置";
+"WWSearchDeviceFailKey"             = "搜索设备失败";
+"WWSearchDeviceSuccessKey"          = "搜索设备成功";
+"WWConnectFailKey"                  = "连接设备失败";
+"WWConnectSuccessKey"               = "连接设备成功";
+"WWConnectingKey"                   = "连接中";
+"WWDeviceOccupyKey"                 = "设备被占用";
+"WWDisposeSuccessKey"               = "断开连接成功";
+"WWSendDataFailKey"                 = "发送数据失败";
+"WWCommunicationErrorKey"           = "通信错误";
+"WWLocationPermissionReictedKey"    = "未获取到定位权限";
+"WWNetReictedKey"                   = "网络受限";
+"WWNotConnectKey"                   = "未连接";
+"WWDisconnectKey"                   = "断开连接";
+
+
+//-------固件升级
+"WWUpdateInterruptKey"        = "升级中断";
+"WWDataErrorKey"              = "数据错误";
+"WWSwitchIAPFailKey"          = "切换IAP模式失败";
+"WWSwitchIAPSuccessKey"       = "切换IAP模式成功";
+"WWCheckBootloaderFailKey"    = "查询bootloader版本失败";
+"WWCheckBootloaderSuccessKey" = "查询bootloader版本成功";
+"WWSendUpdateSuccessKey"      = "发送升级请求成功";
+"WWSendUpdateFailKey"         = "发送升级请求失败";
+"WWSendDataSuccessKey"        = "数据发送完成";
+"WWSendDataFailKey"           = "发送数据失败";
+"WWWriteFlashSuccessKey"      = "写入Flash成功";
+"WWWriteFlashFailKey"         = "写入Flash失败";
+"WWEnterUserModeSuccessKey"   = "进入用户模式成功";
+"WWEnterUserModeFailKey"      = "进入用户模式失败";
+"WWUpdatingKey"               = "升级中";
+"WWUpdateCancelKey"           = "取消升级";
+"WWUpdateTimeOutKey"          = "升级超时";
+"WWUnsuportKey"               = "不支持";
+"WWUpdateSuccessKey"          = "升级成功";
+"WWUpdateFailKey"             = "升级失败";
+"WWReconnectFailKey"          = "重连失败";
+"WWWrongFirmwareKey"          = "固件型号不匹配";
+
+//打印
+"WWPrintingKey"            = "打印中";
+"WWPrintTimeOutKey"        = "打印超时";
+"WWRFIDDataErrorKey"       = "RFID数据异常";
+"WWPrintInterruptKey"      = "打印中断";
+"WWPrintFailKey"           = "打印失败";
+"WWPrintCancelKey"         = "打印取消";
+"WWPrintSuccessKey"        = "打印完成";
+"WWSettingSuccessKey"      = "设置成功";
+"WWPrintPauseKey"          = "打印暂停";
+"WWPrintDataErrorKey"      = "数据有问题";
+"WWCheckFailKey"           = "查询失败";
+"WWPrintCountErrorKey"     = "打印数量错误";
+"WWPrintCountSizeErrorKey" = "宽高有误";
+"WWSyncTimeNullKey"        = "时间为空";
+
+//新机型打印机状态描述
+"WWPrinterStatus00Key" = "全部正常";
+"WWPrinterStatus01Key" = "请放入标签盒";
+"WWPrinterStatus02Key" = "EPROM错误，请返厂维修";
+"WWPrinterStatus03Key" = "标签用完";
+"WWPrinterStatus04Key" = "不能识别的标签";
+"WWPrinterStatus05Key" = "解锁放入标签盒";
+"WWPrinterStatus06Key" = "请合上锁紧杆或仓盖";
+"WWPrinterStatus07Key" = "防伪线路故障";
+"WWPrinterStatus08Key" = "高温预警";
+"WWPrinterStatus09Key" = "切刀卡住";
+"WWPrinterStatus0aKey" = "碳带异常";
+"WWPrinterStatus0bKey" = "设备忙";
+"WWPrinterStatus0cKey" = "适配器错误";
+"WWPrinterStatus0dKey" = "卡纸";
+"WWPrinterStatus0eKey" = "打印机休眠";
+"WWPrinterStatus0fKey" = "标签异常";
+"WWPrinterStatus10Key" = "RFID异常";
+"WWPrinterStatus11Key" = "";
+"WWPrinterStatus12Key" = "请解锁放入碳带盒";
+"WWPrinterStatus13Key" = "碳带用完";
+"WWPrinterStatus14Key" = "不能识别的碳带";
+"WWPrinterStatus15Key" = "打印头异常";
+"WWPrinterStatus16Key" = "在热敏模式下不能安装碳带";
+"WWPrinterStatusffKey" = "未知状态";
+
+//老机型异常
+"WWPrinterErrorNormalKey"                = "正常";
+"WWPrinterErrorUnknownKey"               = "未知错误";
+"WWPrinterErrorNoLabelKey"               = "请放入标签";
+"WWPrinterError24C02Key"                 = "24C02 检测出问题";
+"WWPrinterErrorLabelUsedUpKey"           = "标签用完";
+"WWPrinterErrorUnrecognizedLabelKey"     = "不能识别标签";
+"WWPrinterErrorLockLeverOpendKey"        = "请合上锁紧杆或仓盖";
+"WWPrinterErrorLineKey"                  = "线路故障";
+"WWPrinterErrorWrongAdapterKey"          = "适配器错误";
+"WWPrinterErrorNoRibbonKey"              = "请安装碳带";
+"WWPrinterErrorRibbonUsedUpKey"          = "碳带用完";
+"WWPrinterErrorUnrecognizedRibbonKey"    = "不能识别碳带";
+"WWPrinterErrorCutterAbnormalKey"        = "切刀异常";
+"WWPrinterErrorBackClosedKey"            = "后盖关闭";
+"WWPrinterErrorPauseKey"                 = "打印机暂停";
+"WWPrinterErrorSecurityUnrecognizedKey"  = "防伪未到位";
+"WWPrinterErrorCoverOpenedKey"           = "请关闭仓盖";
+"WWPrinterErrorNotEnoughStorageKey"      = "内存不足";
+"WWPrinterErrorMotorOverheatingKey"      = "电机过热";
+"WWPrinterErrorPaperTooThickKey"         = "纸张太厚";
+"WWPrinterErrorPrinterHeadOverheatedKey" = "打印头过热";
+//局域网连接
+"WWFailedToGetIPAddressKey"              = "获取IP失败";

@@ -1,0 +1,80 @@
+/* 
+  Localizable.ings
+  TextView
+
+  Created by 刘良平 on 2019/11/14.
+  Copyright © 2019 WEWIN. All rights reserved.
+*/
+//连接
+"WWVersionKey" = "品胜SDK版本号:";
+"WWPreViewPrintKey" = "打印";
+"WWPreViewCancelKey" = "取消";
+"WWBLESearchDeviceNotFindKey" = "未搜索到品胜打印机,请检查打印机开关或模式";
+"WWSearchDeviceNotFindKey" = "搜索失败,请检查打印机开关或模式";
+"WWConnectSuccessKey" = "连接成功";
+"WWConnectFailedKey" = "连接失败";
+"WWSwitchOFFKey" = "请打开手机蓝牙开关";
+"WWBLEPermissionsOFFKey" = "请打开蓝牙权限";
+"WWWifiConnectFailedKey" = "连接失败(WIFI),请检查打印机开关或模式";
+"WWWifiUnableConnectNetworkKey" = "wifi连接网络受限，请打开网络权限";
+"WWAutoChangeModelKey" = "如果使用wifi打印需要开启定位权限,已自动切换为蓝牙打印";
+"WWBLEDisconnectKey" = "断开蓝牙连接";
+"WWWifiDisconnectKey" = "断开WIFI连接";
+"WWDataSourceErrorKey" = "打印模块仅支持Label数组";
+"WWDataSourceZeroKey" = "打印数量为0";
+"WWLabelTypeErrorKey" = "标签型号与预设不符，是否继续打印";
+"WWPrintingKey" = "正在打印";
+"WWLabelCreateErrorKey" = "标签创建出错";
+"WWHintKey" = "提示";
+"WWCancelPrintKey" = "取消打印";
+"WwPrintContinueKey" = "继续";
+"WWPrintErrorKey" = "打印异常";
+"WWLANSearchDeviceNotFindKey" = "搜索失败,请检查打印机是否和手机处于同一局域网。\niOS14+请在设置中打开本地网络访问权限，重启APP后再试";
+"蓝牙连接" = "蓝牙连接";
+"局域网连接" = "局域网连接";
+"正在连接" = "正在连接···";
+"最近使用" = "最近使用";
+"打印预览" = "打印预览";
+"打印份数" = "打印份数";
+"搜索" = "搜索";
+"未识别到二维码或条形码" = "未识别到二维码或条形码";
+"提示" = "提示";
+"默认" = "默认";
+"间隙" = "间隙";
+"黑标" = "黑标";
+"连续" = "连续";
+"穿孔/透明" = "穿孔/透明";
+"取消" = "取消";
+"断开连接" = "断开连接";
+"电量" = "电量";
+"标签" = "标签";
+"水平偏移" = "水平偏移";
+"垂直偏移" = "垂直偏移";
+"左" = "左";
+"右" = "右";
+"上" = "上";
+"下" = "下";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
+
+
+
+
+
+
+

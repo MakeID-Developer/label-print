@@ -1,0 +1,120 @@
+/* 
+  Localizable.strings
+  TextView
+
+  Created by 刘良平 on 2019/11/14.
+  Copyright © 2019 WEWIN. All rights reserved.
+*/
+
+//连接
+"WWBluetoothOnKey"                  = "Bluetooth on";
+"WWBluetoothOffKey"                 = "Bluetooth off";
+"WWBluetoothUnsupportedKey"         = "Bluetooth unsupported";
+"WWBluetoothUnauthorizedKey"        = "Bluetooth unauthorized";
+"WWBluetoothResetting"              = "Bluetooth resetting";
+"WWSearchDeviceFailKey"             = "Searching failed";
+"WWSearchDeviceSuccessKey"          = "Searching success";
+"WWConnectFailKey"                  = "Connection failed";
+"WWConnectSuccessKey"               = "Connected successfully!";
+"WWConnectingKey"                   = "Connecting";
+"WWDeviceOccupyKey"                 = "The device is used by other device";
+"WWDisposeSuccessKey"               = "Device disconnected";
+"WWSendDataFailKey"                 = "Failed to send data";
+"WWCommunicationErrorKey"           = "Communication error";
+"WWLocationPermissionReictedKey"    = "Location permission restricted";
+"WWNetReictedKey"                   = "Network restricted";
+"WWNotConnectKey"                   = "Not Connected";
+"WWDisconnectKey"                   = "DisConnected";
+
+
+//-------固件升级
+"WWUpdateInterruptKey"        = "Upgrade interruption";
+"WWDataErrorKey"              = "Data error";
+"WWSwitchIAPFailKey"          = "Switching IAP mode failed";
+"WWSwitchIAPSuccessKey"       = "Switching IAP mode successfully";
+"WWCheckBootloaderFailKey"    = "Query bootloader version failed";
+"WWCheckBootloaderSuccessKey" = "Check the bootloader version successfully";
+"WWSendUpdateSuccessKey"      = "Send upgrade request success";
+"WWSendUpdateFailKey"         = "Send upgrade request failed";
+"WWSendDataSuccessKey"        = "Data transmission completed";
+"WWSendDataFailKey"           = "Failed to send data";
+"WWWriteFlashSuccessKey"      = "Successfully written to Flash";
+"WWWriteFlashFailKey"         = "Writing to Flash failed";
+"WWEnterUserModeSuccessKey"   = "Successfully entered user mode";
+"WWEnterUserModeFailKey"      = "Failed to enter user mode";
+"WWUpdatingKey"               = "During upgrade";
+"WWUpdateCancelKey"           = "Cancel upgrade";
+"WWUpdateTimeOutKey"          = "Upgrade timeout";
+"WWUnsuportKey"               = "Unsupport";
+"WWUpdateSuccessKey"          = "Upgrade success";
+"WWUpdateFailKey"             = "Upgrade failed";
+"WWReconnectFailKey"          = "Reconnect failed";
+"WWWrongFirmwareKey"          = "The firmware model does not match";
+
+//打印
+"WWPrintingKey"            = "Printing";
+"WWPrintTimeOutKey"        = "Print timeout";
+"WWRFIDDataErrorKey"       = "Abnormal RFID data";
+"WWPrintInterruptKey"      = "Print interruption";
+"WWPrintFailKey"           = "Print failed";
+"WWPrintCancelKey"         = "Print cancel";
+"WWPrintSuccessKey"        = "Print completed";
+"WWSettingSuccessKey"      = "Successful setup";
+"WWPrintPauseKey"          = "Print pause";
+"WWPrintDataErrorKey"      = "Problem with data";
+"WWCheckFailKey"           = "Query failed";
+"WWPrintCountErrorKey"     = "Wrong count of print";
+"WWPrintCountSizeErrorKey" = "Wrong height or width";
+"WWSyncTimeNullKey"        = "Time is null";
+
+//新机型打印机状态描述
+"WWPrinterStatus00Key" = "All normal";
+"WWPrinterStatus01Key" = "Insert label box";
+"WWPrinterStatus02Key" = "EPROM error. Return to depot";
+"WWPrinterStatus03Key" = "Labels are used up";
+"WWPrinterStatus04Key" = "Unrecognized label";
+"WWPrinterStatus05Key" = "Put label in";
+"WWPrinterStatus06Key" = "Close the locking lever";
+"WWPrinterStatus07Key" = "Security line failure";
+"WWPrinterStatus08Key" = "High temperature warning";
+"WWPrinterStatus09Key" = "Cutter jam";
+"WWPrinterStatus0aKey" = "Ribbon exception";
+"WWPrinterStatus0bKey" = "Printer is busy";
+"WWPrinterStatus0cKey" = "Adapter error";
+"WWPrinterStatus0dKey" = "Paper jam";
+"WWPrinterStatus0eKey" = "Printer in sleep mode";
+"WWPrinterStatus0fKey" = "Label exception";
+"WWPrinterStatus10Key" = "RFID exception";
+"WWPrinterStatus11Key" = "";
+"WWPrinterStatus12Key" = "Please unlock and insert the ribbon";
+"WWPrinterStatus13Key" = "The ribbon is used up";
+"WWPrinterStatus14Key" = "Unrecognized ribbon";
+"WWPrinterStatus15Key" = "Print Head Abnormal";
+"WWPrinterStatus16Key" = "Cannot install ribbon in thermal mode";
+"WWPrinterStatusffKey" = "Unknown";
+
+//老机型异常
+"WWPrinterErrorNormalKey"                = "Normal";
+"WWPrinterErrorUnknownKey"               = "Unknown error";
+"WWPrinterErrorNoLabelKey"               = "Put label in";
+"WWPrinterError24C02Key"                 = "24C02 detected a problem";
+"WWPrinterErrorLabelUsedUpKey"           = "Labels are used up";
+"WWPrinterErrorUnrecognizedLabelKey"     = "Cannot identify the label";
+"WWPrinterErrorLockLeverOpendKey"        = "Close the locking lever or cover";
+"WWPrinterErrorLineKey"                  = "Line failure";
+"WWPrinterErrorWrongAdapterKey"          = "Adapter error";
+"WWPrinterErrorNoRibbonKey"              = "Please install the ribbon";
+"WWPrinterErrorRibbonUsedUpKey"          = "Ribbon are used up";
+"WWPrinterErrorUnrecognizedRibbonKey"    = "Unrecognized ribbon";
+"WWPrinterErrorCutterAbnormalKey"        = "Cutter abnormality";
+"WWPrinterErrorBackClosedKey"            = "Back cover closed";
+"WWPrinterErrorPauseKey"                 = "Printer pause";
+"WWPrinterErrorSecurityUnrecognizedKey"  = "Anti-counterfeiting is not in place";
+"WWPrinterErrorCoverOpenedKey"           = "Please close the cover";
+"WWPrinterErrorNotEnoughStorageKey"      = "Not enough storage";
+"WWPrinterErrorMotorOverheatingKey"      = "Motor overheating!";
+"WWPrinterErrorPaperTooThickKey"         = "Paper is too thick";
+"WWPrinterErrorPrinterHeadOverheatedKey" = "Print head overheated";
+
+//局域网连接
+"WWFailedToGetIPAddressKey"              = "Failed to get IP address";

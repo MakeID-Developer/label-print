@@ -1,0 +1,119 @@
+/* 
+  Localizable.strings
+  TextView
+
+  Created by 刘良平 on 2019/11/14.
+  Copyright © 2019 WEWIN. All rights reserved.
+*/
+//連接
+//연결
+"WWBluetoothOnKey" = "블루투스 켜짐";
+"WWBluetoothOffKey" = "블루투스 끄기";
+"WWBluetoothUnsupportedKey" = "블루투스 는 지원되지 않습니다.";
+"WWBluetoothUnauthorizedKey" = "블루투스 권한을 얻지 못했습니다.";
+"WWBluetoothResetting" = "Bluetooth 재설정";
+"WWSearchDeviceFailKey" = "장치 검색 실패";
+"WWSearchDeviceSuccessKey" = "장치 검색 성공";
+"WWConnectFailKey" = "장비 연결 실패";
+"WWConnectSuccessKey" = "장비에 성공적으로 연결";
+"WWConnectingKey" = "연결 중";
+"WWDeviceOccupyKey" = "장비가 사용 중입니다";
+"WWDisposeSuccessKey" = "성공적으로 연결 해제 됨";
+"WWSendDataFailKey" = "데이터 전송 실패";
+"WWCommunicationErrorKey" = "통신 오류";
+"WWLocationPermissionReictedKey" = "위치 권한을 얻지 못했습니다.";
+"WWNetReictedKey" = "네트워크 제한됨";
+"WWNotConnectKey" = "연결되지 않음";
+"WWDisconnectKey" = "연결되지 않음";
+
+
+//-------펌웨어 업그레이드
+"WWUpdateInterruptKey" = "업데이트 중단됨";
+"WWDataErrorKey" = "데이터 오류";
+"WWSwitchIAPFailKey" = "IAP 모드 전환 실패";
+"WWSwitchIAPSuccessKey" = "IAP 모드 전환 성공";
+"WWCheckBootloaderFailKey" = "부트 로더 버전 확인 실패";
+"WWCheckBootloaderSuccessKey" = "부트 로더 버전 성공 확인";
+"WWSendUpdateSuccessKey" = "업그레이드 요청을 성공적으로 전송";
+"WWSendUpdateFailKey" = "업데이트 요청 전송 실패";
+"WWSendDataSuccessKey" = "데이터 전송 완료";
+"WWSendDataFailKey" = "데이터 전송 실패";
+"WWWriteFlashSuccessKey" = "Flash에 성공적으로 기록했습니다.";
+"WWWriteFlashFailKey" = "Flash에 쓰기 실패";
+"WWEnterUserModeSuccessKey" = "사용자 모드를 성공적으로 입력";
+"WWEnterUserModeFailKey" = "사용자 모드 진입 실패";
+"WWUpdatingKey" = "업그레이드 중";
+"WWUpdateCancelKey" = "업그레이드 취소";
+"WWUpdateTimeOutKey" = "업그레이드 시간 초과";
+"WWUnsuportKey" = "지원되지 않음";
+"WWUpdateSuccessKey" = "업그레이드 성공";
+"WWUpdateFailKey" = "업그레이드 실패";
+"WWReconnectFailKey" = "다시 연결 실패";
+"WWWrongFirmwareKey" = "펌웨어 모델이 일치하지 않습니다";
+
+//인쇄
+"WWPrintingKey" = "인쇄 중";
+"WWPrintTimeOutKey" = "인쇄 시간 초과";
+"WWRFIDDataErrorKey" = "RFID 데이터 오류";
+"WWPrintInterruptKey" = "인쇄 중단";
+"WWPrintFailKey" = "인쇄 실패";
+"WWPrintCancelKey" = "인쇄 취소";
+"WWPrintSuccessKey" = "인쇄 완료";
+"WWSettingSuccessKey" = "설정 성공";
+"WWPrintPauseKey" = "인쇄 일시 중지";
+"WWPrintDataErrorKey" = "데이터에 문제가 있습니다";
+"WWCheckFailKey" = "조회 실패";
+"WWPrintCountErrorKey" = "잘못된 인쇄 매수";
+"WWPrintCountSizeErrorKey" = "너비와 높이가 잘못되었습니다.";
+"WWSyncTimeNullKey" = "시간이 비어 있습니다";
+
+// 새 프린터 상태 설명
+"WWPrinterStatus00Key" = "모두 정상";
+"WWPrinterStatus01Key" = "라벨 상자에 넣으십시오";
+"WWPrinterStatus02Key" = "EPROM 오류, 수리를 위해 공장으로 돌아가십시오.";
+"WWPrinterStatus03Key" = "레이블 부족";
+"WWPrinterStatus04Key" = "인식 할 수없는 레이블";
+"WWPrinterStatus05Key" = "라벨 상자로 잠금 해제";
+"WWPrinterStatus06Key" = "잠금 레버를 닫으십시오";
+"WWPrinterStatus07Key" = "위조 방지 라인 실패";
+"WWPrinterStatus08Key" = "고온 경고";
+"WWPrinterStatus09Key" = "절단기 멈춤";
+"WWPrinterStatus0aKey" = "카본 리본 비정상";
+"WWPrinterStatus0bKey" = "장치가 사용 중입니다";
+"WWPrinterStatus0cKey" = "어댑터 오류";
+"WWPrinterStatus0dKey" = "용지 걸림";
+"WWPrinterStatus0eKey" = "프린터 잠자기";
+"WWPrinterStatus0fKey" = "태그 비정상";
+"WWPrinterStatus10Key" = "RFID 비정상";
+"WWPrinterStatus11Key"= "";
+"WWPrinterStatus12Key"= "리본 카트리지를 잠금 해제하고 삽입하십시오";
+"WWPrinterStatus13Key"= "리본이 다 사용되었습니다.";
+"WWPrinterStatus14Key"= "인식 할 수없는 리본";
+"WWPrinterStatus15Key"= "프린트 헤드 비정상";
+"WWPrinterStatus16Key"= "열 모드에서 리본을 설치할 수 없음";
+"WWPrinterStatusffKey" = "알 수없는 상태";
+
+// 이전 모델이 비정상입니다.
+"WWPrinterErrorNormalKey" = "일반";
+"WWPrinterErrorUnknownKey" = "알 수없는 오류";
+"WWPrinterErrorNoLabelKey" = "라벨을 입력하십시오";
+"WWPrinterError24C02Key" = "24C02가 문제를 발견했습니다.";
+"WWPrinterErrorLabelUsedUpKey" = "태그 없음";
+"WWPrinterErrorUnrecognizedLabelKey" = "인식 할 수없는 라벨";
+"WWPrinterErrorLockLeverOpendKey" = "자물쇠나 창고 뚜껑을 닫으세요";
+"WWPrinterErrorLineKey" = "줄 오류";
+"WWPrinterErrorWrongAdapterKey" = "어댑터 오류";
+"WWPrinterErrorNoRibbonKey" = "리본을 설치하십시오";
+"WWPrinterErrorRibbonUsedUpKey" = "리본이 다 사용되었습니다.";
+"WWPrinterErrorUnrecognizedRibbonKey" = "리본을 인식 할 수 없습니다";
+"WWPrinterErrorCutterAbnormalKey" = "커터 이상";
+"WWPrinterErrorBackClosedKey" = "뒷 표지 닫힘";
+"WWPrinterErrorPauseKey" = "프린터 일시 중지";
+"WWPrinterErrorSecurityUnrecognizedKey" = "위조 방지가 제자리에 있지 않습니다";
+"WWPrinterErrorCoverOpenedKey" = "표지를 닫으십시오";
+"WWPrinterErrorNotEnoughStorageKey" = "메모리 부족";
+"WWPrinterErrorMotorOverheatingKey" = "모터 과열";
+"WWPrinterErrorPaperTooThickKey" = "용지가 너무 두껍습니다";
+"WWPrinterErrorPrinterHeadOverheatedKey" = "프린트 헤드가 과열되었습니다.";
+//局域网连接
+"WWFailedToGetIPAddressKey"         = "IP를 가져 오지 못했습니다.";

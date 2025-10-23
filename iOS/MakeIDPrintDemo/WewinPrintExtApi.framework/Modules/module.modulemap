@@ -1,0 +1,6 @@
+framework module WewinPrintExtApi {
+  umbrella header "WewinPrintExtApi.h"
+  export *
+
+  module * { export * }
+}

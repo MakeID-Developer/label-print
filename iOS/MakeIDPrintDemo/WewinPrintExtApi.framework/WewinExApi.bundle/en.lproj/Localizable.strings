@@ -1,0 +1,89 @@
+/* 
+  Localizable.strings
+  TextView
+
+  Created by 刘良平 on 2019/11/14.
+  Copyright © 2019 WEWIN. All rights reserved.
+*/
+//连接
+"WWVersionKey" = "WEWIN SDK Version:";
+"WWPreViewPrintKey" = "Print";
+"WWPreViewCancelKey" = "Cancel";
+"WWBLESearchDeviceNotFindKey" = "WewinPrinter Searching failed,Please turn on printer or switch model";
+"WWSearchDeviceNotFindKey" = "Search failed,Please turn on printer or switch model";
+"WWConnectSuccessKey" = "Connect Success";
+"WWConnectFailedKey" = "Connect Failed";
+"WWSwitchOFFKey" = "Please turn on the Bluetooth switch";
+"WWBLEPermissionsOFFKey" = "Please turn on bluetooth permissions";
+"WWWifiConnectFailedKey" = "WiFi Connect Failed,Please turn on printer or switch model";
+"WWWifiUnableConnectNetworkKey" = "WiFi cannot connect to the network, please open the network permissions";
+"WWAutoChangeModelKey" = "WiFi access limited, automatically switch bluetooth mode";
+"WWBLEDisconnectKey" = "Bluetooth Disconnect";
+"WWWifiDisconnectKey" = "WiFi Disconnect";
+"WWDataSourceErrorKey" = "Must pass in the label array";
+"WWDataSourceZeroKey" = "Print quantity 0";
+"WWLabelTypeErrorKey" = "Disfferent label type,whether to continue printing";
+"WWPrintingKey" = "Printing label";
+"WWLabelCreateErrorKey" = "Error in label creation";
+"WWHintKey" = "Prompt";
+"WWCancelPrintKey" = "Cancel Print";
+"WwPrintContinueKey" = "Continue";
+"WWPrintErrorKey" = "Print abnormal";
+"WWLANSearchDeviceNotFindKey" = "Search failed, please check if the printer and the phone are in the same WiFi,iOS14+, please open the local network access permission in the settings, restart the APP and try again";
+"蓝牙连接" = "Bluetooth";
+"局域网连接" = "LAN";
+"正在连接" = "Connecting···";
+"最近使用" = "Recently Used";
+"打印预览" = "Printing preview";
+"打印份数" = "Number";
+"搜索" = "Search";
+"未识别到二维码或条形码" = "The QR code or barcode is not recognized";
+"提示" = "Prompt";
+"默认" = "Default";
+"黑标" = "Black label";
+"间隙" = "Gap";
+"连续" = "Continuous";
+"穿孔/透明" = "Perforated/transparent";
+"取消" = "Cancel";
+"断开连接" = "Disconnect";
+"已连接" = "Connected";
+"未连接" = "Disconnect";
+"MakeID打印预览" = "MakeID print preview";
+"设置成功" = "Success";
+"设置失败，请重试" = "Setting failed, please try again";
+"打印黑度" = "Darkness";
+"淡" = "Light";
+"黑" = "Black";
+"间隙方式" = "Gap type";
+"标签类型" = "Label type";
+"裁剪方式" = "Cropping type";
+"撕纸" = "Tear";
+"手动切纸" = "Manual paper cutting";
+"每张结束自动切纸" = "Automatic cutting after each print";
+"任务结束自动切纸" = "Automatic cutting after all print";
+"正在重连打印机" = "Reconnecting printer";
+"电量" = "Battery";
+"标签" = "Label";
+"水平偏移" = "X Offset";
+"垂直偏移" = "Y Offset";
+"左" = "Left";
+"右" = "Right";
+"上" = "Up";
+"下" = "Down";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
+
