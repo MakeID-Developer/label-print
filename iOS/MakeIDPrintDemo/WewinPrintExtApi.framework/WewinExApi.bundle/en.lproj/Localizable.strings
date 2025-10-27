@@ -35,7 +35,7 @@
 "正在连接" = "Connecting···";
 "最近使用" = "Recently Used";
 "打印预览" = "Printing preview";
-"打印份数" = "Number";
+"打印份数" = "Copies";
 "搜索" = "Search";
 "未识别到二维码或条形码" = "The QR code or barcode is not recognized";
 "提示" = "Prompt";
@@ -48,7 +48,7 @@
 "断开连接" = "Disconnect";
 "已连接" = "Connected";
 "未连接" = "Disconnect";
-"MakeID打印预览" = "MakeID print preview";
+"MakeID打印预览" = "Print preview";
 "设置成功" = "Success";
 "设置失败，请重试" = "Setting failed, please try again";
 "打印黑度" = "Darkness";

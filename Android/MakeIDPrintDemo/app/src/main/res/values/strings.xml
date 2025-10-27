@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">ExtApiDemo</string>
+    <!-- English -->
+    <string name="print_template">Template Printing</string>
+   <string name="template_printing_des">
+    Template Printing: \n Requires importing the WewinPrintExtApi framework. The SDK supports generating text, 1D barcodes, QR codes, images, lines, and boxes.</string>
+    <string name="text_back">Back</string>
+    <string name="print_template_title">Template Print</string>
+    <string name="print_with_preview_demo_1">Print-With Preview-demo 1</string>
+    <string name="print_no_preview_demo_1">Print-No Preview-demo 1</string>
+    <string name="print_with_preview_demo_2">Print-With Preview-demo 2</string>
+    <string name="print_no_preview_demo_2">Print-No Preview-demo 2</string>
+    <string name="disconnect">Disconnect Bluetooth</string>
+    <string name="print_custom_title">Custom Print</string>
+    <string name="print_custom_print">Print</string>
+    <string name="print_custom_search">Search Bluetooth</string>
+    <string name="status_disconnect">Disconnected</string>
+    <string name="device_search_title">Device Search</string>
+    <string name="search">Search</string>
+    <string name="tips_location_on">Please enable location services from the notification panel</string>
+    <string name="tips_bluetooth_on">Bluetooth is currently off. Please try turning it on from the notification panel</string>
+</resources>

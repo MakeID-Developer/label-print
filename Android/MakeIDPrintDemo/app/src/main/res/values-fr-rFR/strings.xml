@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- French -->
+    <string name="print_template">Impression par modèle</string>
+    <string name="template_printing_des">
+    Impression de modèle : \n Nécessite l\'importation du framework WewinPrintExtApi. Le SDK prend en charge la génération de texte, de codes-barres 1D, de codes QR, d\'images, de lignes et de cadres.
+</string>
+    <string name="text_back">Retour</string>
+    <string name="print_template_title">Impression par modèle</string>
+    <string name="print_with_preview_demo_1">Imprimer – Aperçu inclus – Démo 1</string>
+    <string name="print_no_preview_demo_1">Imprimer – Sans aperçu – Démo 1</string>
+    <string name="print_with_preview_demo_2">Imprimer – Aperçu inclus – Démo 2</string>
+    <string name="print_no_preview_demo_2">Imprimer – Sans aperçu – Démo 2</string>
+    <string name="disconnect">Déconnecter le Bluetooth</string>
+    <string name="print_custom_title">Impression personnalisée</string>
+    <string name="print_custom_print">Imprimer</string>
+    <string name="print_custom_search">Rechercher Bluetooth</string>
+    <string name="status_disconnect">Déconnecté</string>
+    <string name="device_search_title">Recherche d\'appareil</string>
+    <string name="search">Rechercher</string>
+    <string name="tips_location_on">Veuillez activer les services de localisation depuis la barre de notification</string>
+    <string name="tips_bluetooth_on">Le Bluetooth est actuellement désactivé. Veuillez l\'activer depuis la barre de notification</string>
+
+</resources>

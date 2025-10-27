@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Japanese -->
+    <string name="print_template">テンプレート印刷</string>
+    <string name="template_printing_des">
+       テンプレート印刷：\n WewinPrintExtApiフレームワークのインポートが必要です。SDKは、テキスト、1次元バーコード、QRコード、画像、線、ボックスの生成をサポートしています。
+    </string>
+    <string name="text_back">戻る</string>
+    <string name="print_template_title">テンプレート印刷</string>
+    <string name="print_with_preview_demo_1">プレビューありで印刷-デモ1</string>
+    <string name="print_no_preview_demo_1">プレビューなしで印刷-デモ1</string>
+    <string name="print_with_preview_demo_2">プレビューありで印刷-デモ2</string>
+    <string name="print_no_preview_demo_2">プレビューなしで印刷-デモ2</string>
+    <string name="disconnect">Bluetoothを切断</string>
+    <string name="print_custom_title">カスタム印刷</string>
+    <string name="print_custom_print">印刷</string>
+    <string name="print_custom_search">Bluetoothを検索</string>
+    <string name="status_disconnect">切断されました</string>
+    <string name="device_search_title">デバイス検索</string>
+    <string name="search">検索</string>
+    <string name="tips_location_on">通知バーから位置情報サービスを有効にしてください</string>
+    <string name="tips_bluetooth_on">現在Bluetoothがオフになっています。通知バーからオンにしてください</string>
+
+</resources>

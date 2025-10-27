@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spanish -->
+    <string name="print_template">Impresión con plantilla</string>
+    <string name="template_printing_des">
+    Impresión de plantilla: \n Requiere importar el framework WewinPrintExtApi. El SDK admite la generación de texto, códigos de barras 1D, códigos QR, imágenes, líneas y cuadros.
+     </string>
+    <string name="text_back">Atrás</string>
+    <string name="print_template_title">Impresión con plantilla</string>
+    <string name="print_with_preview_demo_1">Imprimir – Con vista previa – Demo 1</string>
+    <string name="print_no_preview_demo_1">Imprimir – Sin vista previa – Demo 1</string>
+    <string name="print_with_preview_demo_2">Imprimir – Con vista previa – Demo 2</string>
+    <string name="print_no_preview_demo_2">Imprimir – Sin vista previa – Demo 2</string>
+    <string name="disconnect">Desconectar Bluetooth</string>
+    <string name="print_custom_title">Impresión personalizada</string>
+    <string name="print_custom_print">Imprimir</string>
+    <string name="print_custom_search">Buscar Bluetooth</string>
+    <string name="status_disconnect">Desconectado</string>
+    <string name="device_search_title">Búsqueda de dispositivo</string>
+    <string name="search">Buscar</string>
+    <string name="tips_location_on">Por favor, active los servicios de ubicación desde el panel de notificaciones</string>
+    <string name="tips_bluetooth_on">Bluetooth está actualmente desactivado. Intente activarlo desde el panel de notificaciones</string>
+
+
+</resources>

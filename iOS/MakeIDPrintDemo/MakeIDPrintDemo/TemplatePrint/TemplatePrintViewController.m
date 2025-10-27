@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [WwPrintUtils getInstance].languageType = WWLanguageArabic;
+    [WwPrintUtils getInstance].languageType = WWLanguageEnglish;
 }
 
 //Print whit no preview

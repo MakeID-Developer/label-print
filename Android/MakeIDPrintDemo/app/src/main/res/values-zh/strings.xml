@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="print_template">模板打印</string>
+    <string name="template_printing_des">模板打印：\n 需要导入WewinPrintExtApi框架。SDK支持生成文本、一维码、二维码、图片、线条和方框。</string>
+    <string name="text_back">返回</string>
+    <string name="print_template_title">模板打印</string>
+    <string name="print_with_preview_demo_1">打印-带预览-示例1</string>
+    <string name="print_no_preview_demo_1">打印-无预览-示例1</string>
+    <string name="print_with_preview_demo_2">打印-带预览-示例2</string>
+    <string name="print_no_preview_demo_2">打印-无预览-示例2</string>
+    <string name="disconnect">断开蓝牙连接</string>
+    <string name="print_custom_title">自定义打印</string>
+    <string name="print_custom_print">打印</string>
+    <string name="print_custom_search">搜索蓝牙</string>
+    <string name="status_disconnect">已断开连接</string>
+    <string name="device_search_title">设备搜索</string>
+    <string name="search">搜索</string>
+    <string name="tips_location_on">请从通知栏启用定位服务</string>
+    <string name="tips_bluetooth_on">当前蓝牙已关闭。请尝试从通知栏打开蓝牙</string>
+</resources>

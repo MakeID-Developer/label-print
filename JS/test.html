@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MakeID Print Demo</title>
+</head>
+<script type="text/javascript" src="./labelimage/static/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="./labelimage/static/WewinPrintService.js"></script>
+<script type="text/javascript" src="./code.js"></script>
+
+<body>
+<!-- Step 1： install the print service plugin and start it   -->
+<!-- Step 2: Get the printer driver list   -->
+<!-- Step 3: Select the driver that needs to be printed and pass it to the printing method -->
+  
+    <div>
+        <h2>Before starting the debugging process, please install the label printing service first and the printer driver</h2>
+    </div>
+    <div class="printer-controls">
+        <div>Step 1: get printer</div>
+        <div>
+            <select id="printerSelect">
+                <option value="">-- Select Printer --</option>
+            </select>
+            <input type="button" value="Get printer list" onclick="getPrinterList();" />
+        </div>
+    </div>
+    <div>
+        <p>Setp 2: Print</p>
+        <input type="button" id="printButton" value="Print Label Template - 1" onclick="printFun1();" />
+        <input type="button" id="printButton" value="Print Label Template - 2" onclick="printFun2();" />
+    </div>
+
+    <script>
+        
+        function getPrinterList() {
+            wewin.getPrinterList(function(data) {
+                var printers = JSON.parse(data).content;
+                var selectElement = document.getElementById('printerSelect');
+                
+                // Clear existing options except the first one
+                selectElement.innerHTML = '<option value="">-- Select Printer --</option>';
+                
+                for (var i = 0; i < printers.length; i++) {
+                    console.log("Printer" + (i+1) + ": " + printers[i].printer);
+                    var option = document.createElement('option');
+                    option.value = printers[i].printer;
+                    option.textContent = printers[i].printer;
+                    selectElement.appendChild(option);
+                }
+
+                if (printers.length > 0) {
+                    selectElement.value = printers[0].printer; // Select the first printer by default
+                }
+            }, function(error) {
+                console.log("Get printer list fail:", error); 
+            });
+        }
+
+
+        function printFun1() {
+
+            var selectedPrinter = document.getElementById('printerSelect').value;
+            if (!selectedPrinter) {
+                alert('Please select a printer first');
+                return;
+            }
+
+            var json = [{
+                "LabelType": "1001",
+                "Qrcode": "www.makeid.com",
+                "Barcode": "1234567890",
+                "Introduction": "MakeID is the product brand of Chongqing Pinsheng Technology Co., Ltd. Established in 2006, MakeID focuses on IoT intelligent technologies such as labeling/sensing, and develops and manufactures label printers, labeling and reading products.",
+                "Website": "Official website address:www.makeid.com"
+            }];
+                
+            //To draw the style of the label template, you need to adjust the position, size, etc. in code.js
+
+            wewin.LabelPrint(json, {
+                debug: true, //When set to true, you can view the preview image for debugging. It should be set to false for formal printing.
+                noView: selectedPrinter, // No preview printing, enter printer driver name
+            }, function(data) {
+                console.log("Print callback:", data);
+                // alert(data.errMsg);
+            });
+        }
+
+        function printFun2() {
+
+            var selectedPrinter = document.getElementById('printerSelect').value;
+            if (!selectedPrinter) {
+                alert('Please select a printer first');
+                return;
+            }
+
+            // Single label data format
+            var json = [{
+                "LabelType": "1002",
+                "Fr": "Fr:Low-voltage box router-00001111",
+                "To": "To:Room 101, 11th Floor",
+                "Qrcode": "www.makeid.com"
+            }];
+
+            // Multiple label data format
+            // var json = [{
+            //     "LabelType": "1002",
+            //     "Fr": "Fr:Low-voltage box router-00001111",
+            //     "To": "To:Room 101, 11th Floor",
+            //     "Qrcode": "www.makeid.com"
+            // },{
+            //     "LabelType": "1002",
+            //     "Fr": "Fr:Low-voltage box router-0000222",
+            //     "To": "To:Room 101, 11th Floor",
+            //     "Qrcode": "www.makeid.com"
+            // }];
+                
+            //To draw the style of the label template, you need to adjust the position, size, etc. in code.js
+
+            wewin.LabelPrint(json, {
+                debug: false, //When set to true, you can view the preview image for debugging. It should be set to false for formal printing.
+                noView: selectedPrinter, // No preview printing, enter printer driver name
+            }, function(data) {
+                console.log("Print callback:", data);
+                // alert(data.errMsg);
+            });
+        }
+        getPrinterList();
+    </script>
+</body>
+
+<style>
+    .printer-controls {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    select#printerSelect {
+        padding: 12px 15px;
+        font-size: 16px;
+        border: 2px solid #333;
+        border-radius: 5px;
+        background-color: #fff;
+        min-width: 250px;
+    }
+    
+    input[type="button"] {
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #000;
+        color: white;
+        border: 2px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    input[type="button"]:hover {
+        background-color: #333;
+        border-color: #333;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    
+    input[type="button"]:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    #printButton {
+        width: 300px;
+        margin: 20px 0;
+        height: 50px;
+    }
+</style>
+
+</html>

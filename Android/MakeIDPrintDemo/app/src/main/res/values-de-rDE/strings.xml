@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- German -->
+    <string name="print_template">Vorlagendruck</string>
+   <string name="template_printing_des">
+    Vorlagendruck: \n Erfordert das Importieren des WewinPrintExtApi-Frameworks. Das SDK unterstützt die Erstellung von Text, 1D-Barcodes, QR-Codes, Bildern, Linien und Feldern.
+   </string>
+    <string name="text_back">Zurück</string>
+    <string name="print_template_title">Vorlagendruck</string>
+    <string name="print_with_preview_demo_1">Drucken – Mit Vorschau – Demo 1</string>
+    <string name="print_no_preview_demo_1">Drucken – Ohne Vorschau – Demo 1</string>
+    <string name="print_with_preview_demo_2">Drucken – Mit Vorschau – Demo 2</string>
+    <string name="print_no_preview_demo_2">Drucken – Ohne Vorschau – Demo 2</string>
+    <string name="disconnect">Bluetooth trennen</string>
+    <string name="print_custom_title">Benutzerdefinierter Druck</string>
+    <string name="print_custom_print">Drucken</string>
+    <string name="print_custom_search">Bluetooth suchen</string>
+    <string name="status_disconnect">Getrennt</string>
+    <string name="device_search_title">Gerätesuche</string>
+    <string name="search">Suchen</string>
+    <string name="tips_location_on">Bitte aktivieren Sie den Standortdienst über die Benachrichtigungsleiste</string>
+    <string name="tips_bluetooth_on">Bluetooth ist derzeit deaktiviert. Bitte aktivieren Sie es über die Benachrichtigungsleiste</string>
+</resources>

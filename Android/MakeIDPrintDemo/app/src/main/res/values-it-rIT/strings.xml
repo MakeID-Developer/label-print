@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Italian -->
+    <string name="print_template">Stampa da modello</string>
+    <string name="template_printing_des">
+      Stampa modello: \n Richiede l\'importazione del framework WewinPrintExtApi. L\'SDK supporta la generazione di testo, codici a barre 1D, codici QR, immagini, linee e riquadri.
+    </string>
+    <string name="text_back">Indietro</string>
+    <string name="print_template_title">Stampa da modello</string>
+    <string name="print_with_preview_demo_1">Stampa – Con anteprima – Demo 1</string>
+    <string name="print_no_preview_demo_1">Stampa – Senza anteprima – Demo 1</string>
+    <string name="print_with_preview_demo_2">Stampa – Con anteprima – Demo 2</string>
+    <string name="print_no_preview_demo_2">Stampa – Senza anteprima – Demo 2</string>
+    <string name="disconnect">Disconnetti Bluetooth</string>
+    <string name="print_custom_title">Stampa personalizzata</string>
+    <string name="print_custom_print">Stampa</string>
+    <string name="print_custom_search">Cerca Bluetooth</string>
+    <string name="status_disconnect">Disconnesso</string>
+    <string name="device_search_title">Ricerca dispositivo</string>
+    <string name="search">Cerca</string>
+    <string name="tips_location_on">Abilitare il servizio di localizzazione dal pannello delle notifiche</string>
+    <string name="tips_bluetooth_on">Il Bluetooth è attualmente disattivato. Prova ad attivarlo dal pannello delle notifiche</string>
+
+</resources>

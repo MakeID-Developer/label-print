@@ -81,7 +81,7 @@ typedef void(^IPrintDeviceInfoCallback)(DeviceInfoModel * _Nullable deviceInfo, 
 ///是否开启调试模式 (默认为NO, 调试模式 会在预览图给 给各个模块加上背景色,以区分区域,打印无影响) (Enable debug mode - default NO, adds background colors in preview)
 @property (nonatomic, assign) BOOL ifDebug;
 
-///是否开启预览中的份数模式 默认NO (Enable copy count mode in preview - default NO)
+///是否开启预览中的份数模式 默认YES (Enable copy count mode in preview - default YES)
 @property (nonatomic, assign) BOOL ifShowPrintCountEdit;
 
 ///单张打印成功时回调  设置后将会收到单张打印后的结果回调 (Single print success callback - receives result after each print)
