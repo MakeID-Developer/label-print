@@ -1,6 +1,6 @@
 # 1. Prerequisites
 
-## This printing SDK requires the print server software and printer driver to be installed and running before use.In fact, the printing js SDK will initiate an http request to the printing service software, pass the json data to be printed to the label print server software, and then the label print server software software will draw the corresponding template information, and then generate a print task and pass it to the system's printing service, without connecting to the printer for printing.
+## This printing SDK requires the print server software to be installed and running before use.In fact, the printing js SDK will initiate an http request to the printing service software, pass the json data to be printed to the label print server software, and then the label print server software software will draw the corresponding template information, and then generate a print task and pass it to the system's printing service, without connecting to the printer for printing.
 
 # 2. Import Instructions
 
