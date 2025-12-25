@@ -10,3 +10,6 @@ This project demonstrates how to use **MakeID SDK** to create label layouts by d
 - Images  
 
 and how to call APIs to connect to MakeID label printers via **Bluetooth** for printing.
+
+# Connect us
+If you encounter any problems, please contact us via this email: soft_developer@makeid.com
