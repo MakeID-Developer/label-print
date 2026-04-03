@@ -6,7 +6,7 @@ To use this print service, you need to run the print service plugin software loc
 
 ## 1.2 Software Download
 
-+ ../JS/label-print-server_***
++ [../JS/label-print-server_***](https://github.com/MakeID-Developer/label-print/tree/main/JS)
 
 # 2. Feature Reference
 
