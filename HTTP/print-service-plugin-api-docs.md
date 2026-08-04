@@ -6,7 +6,7 @@ To use this print service, you need to run the print service plugin software loc
 
 ## 1.2 Software Download
 
-+ ../JS/label-print-server_***
++ [../JS/label-print-server_***](https://github.com/MakeID-Developer/label-print/tree/main/JS)
 
 # 2. Feature Reference
 
@@ -17,7 +17,7 @@ To use this print service, you need to run the print service plugin software loc
 Set `handleType` to **`0`**:
 
 ```json
-{"handleType": 0}
+{"handleType": "0"}
 ```
 
 ### 2.1.2 Response
@@ -63,7 +63,7 @@ Set `handleType` to **`1`**.
 
 ```json
 {
-    "handleType": "2",          // 0: get printer list  1: print  2: debug (return preview image)
+    "handleType": "1",          // 0: get printer list  1: print  2: debug (return preview image)
     "printer": "wewin P51_300 0", // Name of the printer to use
     "hasDrive": "1",            // Whether the printer has a driver: 0 = driverless, 1 = with driver
     "labels": [
